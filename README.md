@@ -1,4 +1,4 @@
-# 📈 Predictive Stock Market Model & Portfolio Optimization
+# Predictive Stock Market Model & Portfolio Optimization
 This project builds a predictive model for stock price forecasting using technical indicators (like SMA, RSI, and Bollinger Bands) and applies portfolio optimization techniques to maximize returns while minimizing risk. It includes machine learning for price prediction, constructs an optimized portfolio using historical data, and evaluates performance against the S&P 500 through backtesting and key financial metrics (Sharpe Ratio, Sortino Ratio, etc.).
 
 ## Key Features
@@ -43,7 +43,7 @@ install.packages(c("quantmod", "PerformanceAnalytics", "PortfolioAnalytics",
 ```
 
 
-## 📌 Future Work
+## Future Work
 - Use non linear models like Random Forest or XGBoost in R to capture more complex relationships in stock price prediction.
 - Automate data refresh using CRON jobs or taskscheduleR so the portfolio stays current.
 - Introduce Value at Risk (VaR) or Conditional VaR for more rigorous risk control
